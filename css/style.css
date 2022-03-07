@@ -1,0 +1,128 @@
+body{
+    background-color: #00101f;
+    color: #e2e8f0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar {
+  width:80%;
+  height:10px;
+  margin:auto;
+  padding:15px 0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: #6c757d;
+    font-weight: 700;
+    font-size: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+}
+span{
+    color:#dc5a5a;
+}
+.container{
+    width:100%;
+    margin:0 auto;
+}
+.line{
+    display:flex;
+    
+}
+.line p{
+    font-size: 20px;
+    padding:10px;
+    text-align: justify;
+}
+.half-width{
+    width: fit-content;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+    color:#6c757d;
+}
+button{
+    padding:10px;
+    width:180px;
+    height:50px;
+    background-color: transparent;
+    color:white;
+    border: 1px solid tomato;
+    border-radius:15px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: tomato;
+    font-weight: bold;
+}
+.img-top{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+img{
+    height:auto;
+   width: 300px;
+    margin:0 auto;
+    display: block;
+    border-radius:15px;
+}
+img:hover{
+    filter:brightness(80%);
+}
+input,textarea{
+    padding:10px;
+    width: 250px;
+    margin-top: 10px;
+    color:azure;
+    background-color: #2b2b2b;
+
+}
+input:focus,textarea:focus{
+    outline: none;
+}
+.map{
+    margin-top: 100px;
+    padding-left: 100px;
+}
+footer{
+    background-color: rgba(26, 32, 44, 1);
+    margin:0;
+}
+footer p{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+@media (min-width:576px){
+    .container{
+        max-width:540px;
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width:720px;
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width:968px;
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width:1160px;
+    }
+}
